@@ -1,9 +1,8 @@
-import React from 'react';
+import { useState, useEffect } from 'react';
 import { 
-  Github, Zap, Shield, Layout, ArrowRight, 
-  Download, Database, CheckCircle2, XCircle 
+  Github, Zap, ArrowRight, 
+  Download, CheckCircle2, XCircle 
 } from 'lucide-react';
-
 // 1. Import local image correctly for Vite bundling
 import dashboardImg from './assets/image.png'; 
 
